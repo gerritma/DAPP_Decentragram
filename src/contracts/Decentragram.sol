@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 contract Decentragram {
   string public name = "Decentragram";
-  uint public imageCount= 0;
+  uint public imageCount = 0;
   // Save Images
   mapping(uint => Image) public images;
 
